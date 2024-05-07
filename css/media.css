@@ -1018,6 +1018,9 @@
         margin: 0;
         margin-bottom: 13px;
     }
+    .consultation_main .consultation__form .title-section {
+        margin-bottom: 23px;
+    }
 }
 
 /* Extra Small Devices, Phones */

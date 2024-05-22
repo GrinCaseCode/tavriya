@@ -17,7 +17,7 @@
     .logo-descr {
         margin-left: 11px;
         font-size: 11px;
-        width: 220px;
+        width: 220px; 
     }
     .btn-main {
         font-size: 13px;
@@ -446,6 +446,86 @@
     .page-contacts .title-section {
         margin-bottom: 25px;
     }
+    .features-card__item strong {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .features-card__item {
+        font-size: 13px;
+        margin-top: 44px;
+        margin-right: 40px;
+    }
+    .features-card::before {
+        margin-top: 22px;
+    }
+    .slider-card__item {
+        height: 430px;
+    }
+    .card-block .btn-main {
+        height: 62px;
+    }
+    .tabs-page li a {
+        font-size: 18px;
+    }
+    .tabs-page li {
+        margin-right: 30px;
+    }
+    .button-card {
+        padding: 21px 15px;
+        max-width: 600px;
+    }
+    .card-block .title-section {
+        font-size: 30px;
+    }
+    .sidebar-block {
+        padding: 15px 15px;
+        margin-bottom: 20px;
+    }
+    .item-sidebar__head {
+        font-size: 18px;
+        height: 52px;
+        padding: 0 12px;
+    }
+    .item-filter__content li {
+        margin-bottom: 12px;
+    }
+    .item-filter__head {
+        font-size: 18px;
+    }
+    .checkbox.checkbox_page {
+        font-size: 13px;
+    }
+    .sidebar-block.sidebar-block_filter {
+        padding: 20px 22px;
+    }
+    .item-sidebar__content li {
+        margin-bottom: 12px;
+    }
+    .sidebar-catalog {
+        top: 130px;
+    }
+    .item-filter__content {
+        padding-top: 15px;
+    }
+    .thanks-block {
+        padding: 55px 80px;
+        padding-right: 0;
+    }
+    .thanks-block__image img {
+        max-width: 850px;
+    }
+    .descr-thanks {
+        font-size: 22px;
+        max-width: 540px;
+    }
+    .thanks-block .btn-main {
+        margin-top: 40px;
+        height: 62px;
+    }
+    .title-thanks {
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
 }
 @media only screen and (max-width : 1470px) {
     body {
@@ -610,6 +690,62 @@
     .contacts-block__line {
         max-width: 284px;
     }
+    .features-card__item {
+        font-size: 12px;
+        margin-top: 38px;
+        margin-right: 29px;
+    }
+    .features-card__item strong {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .features-card::before {
+        margin-top: 18px;
+    }
+    .card-block .title-section {
+        font-size: 29px;
+        margin-bottom: 10px;
+    }
+    .slider-card__item {
+        height: 380px;
+    }
+    .slider-card {
+        margin-right: 15px;
+    }
+    .tabs-page li a {
+        font-size: 17px;
+    }
+    .tabs-page li {
+        margin-right: 23px;
+    }
+    .page-card {
+        padding-bottom: 42px;
+    }
+    .button-card {
+        padding: 17px 13px;
+    }
+    .item-sidebar__head {
+        font-size: 16px;
+        height: 50px;
+    }
+    .thanks-block {
+        padding: 40px 50px;
+        padding-right: 0;
+    }
+    .descr-thanks {
+        font-size: 20px;
+        max-width: 530px;
+    }
+    .title-thanks {
+        font-size: 32px;
+    }
+    .thanks-block .btn-main {
+        margin-top: 35px;
+        height: 58px;
+    }
+    .thanks-block__image img {
+        max-width: 820px;
+    }
 }
 @media only screen and (max-width : 1370px) {
     .form-search {
@@ -729,6 +865,42 @@
     }
     .form-main.form-main_page {
         padding: 37px 47px;
+    }
+    .features-card__item strong {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .card-block {
+        padding-top: 25px;
+        padding-bottom: 33px;
+    }
+    .card-block .btn-main {
+        height: 58px;
+    }
+    .slider-card__item {
+        height: 360px;
+    }
+    .sidebar-block {
+        padding: 14px 12px;
+        margin-bottom: 18px;
+    }
+    .item-sidebar__head {
+        font-size: 15px;
+        height: 48px;
+    }
+    .item-filter__head {
+        font-size: 16px;
+    }
+    .title-catalog {
+        font-size: 24px;
+        margin-bottom: 21px;
+    }
+    .thanks-block__image img {
+        max-width: 750px;
+    }
+    .descr-thanks {
+        font-size: 18px;
+        max-width: 475px;
     }
 }
 /* Large Devices, Wide Screens */
@@ -937,6 +1109,52 @@
     }
     .form-main.form-main_page {
         padding: 30px 30px;
+    }
+    .card-block .title-section {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .features-card__item {
+        font-size: 10px;
+        margin-top: 34px;
+        margin-right: 14px;
+    }
+    .features-card__item span {
+        margin-bottom: 5px;
+    }
+    .features-card__item strong {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .slider-card__item {
+        height: 310px;
+    }
+    .tabs-page li a {
+        font-size: 14px;
+    }
+    .tabs-page li {
+        margin-right: 13px;
+    }
+    .tab-container-page p br {
+        display: none;
+    }
+    .item-sidebar__content {
+        padding: 14px 18px;
+        padding-bottom: 10px;
+    }
+    .title-catalog {
+        font-size: 22px;
+        margin-bottom: 21px;
+    }
+    .thanks-block__image img {
+        max-width: 550px;
+    }
+    .title-thanks {
+        font-size: 30px;
+    }
+    .thanks-block .btn-main {
+        margin-top: 30px;
+        height: 56px;
     }
 }
 
@@ -1274,6 +1492,55 @@
     #map {
         height: 350px;
     }
+    .slider-card {
+        margin: 0;
+    }
+    .card-block .card-block__right {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .card-block .btn-main {
+        height: 55px;
+        margin-top: 25px;
+    }
+    .tab-container-page {
+        margin-bottom: 15px;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .sidebar-catalog {
+        top: 0;
+        display: none;
+    }
+    .title-catalog {
+        font-size: 18px;
+        margin-bottom: 19px;
+    }
+    .page-catalog {
+        padding-bottom: 50px;
+    }
+    .btn-main_filter {
+        padding: 0 20px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .thanks-block {
+        padding: 30px;
+    }
+    .thanks-block__image {
+        margin-top: 20px;
+        display: block;
+    }
+    .thanks-block__image img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .page-thanks {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
 }
  
 /* Small Devices, Tablets */
@@ -1345,6 +1612,33 @@
     }
     .row.row_catalog {
         margin-bottom: -15px;
+    }
+    .features-card::before {
+        display: none;
+    }
+    .features-card__item {
+        font-size: 12px;
+        margin-top: 25px;
+        margin-right: 18px;
+    }
+    .card-block .title-section {
+        font-size: 20px;
+        padding-right: 0;
+    }
+    .page-card {
+        padding-bottom: 30px;
+    }
+    .descr-thanks {
+        font-size: 16px;
+        max-width: 383px;
+    }
+    .title-thanks {
+        font-size: 26px;
+        margin-bottom: 13px;
+    }
+    .thanks-block .btn-main {
+        margin-top: 25px;
+        height: 52px;
     }
 }
  
@@ -1481,6 +1775,52 @@
     .card-detailed {
         padding: 20px 15px;
     }
+    .button-card .text-page {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .button-card__icon {
+        width: 21px;
+        height: 21px;
+        margin-right: 9px;
+    }
+    .button-card .btn-main {
+        height: 46px;
+        padding: 0 19px;
+        font-size: 12px;
+    }
+    .button-card .btn-main img {
+        margin-left: 8px;
+        max-width: 21px;
+    }
+    .tabs-page li a {
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .tabs-page li {
+        margin-right: 7px;
+    }
+    .tabs-page {
+        align-items: initial;
+    }
+    .card-block {
+        padding-bottom: 22px;
+        margin-bottom: 25px;
+    }
+    .card-block .card-block__right {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .thanks-block {
+        padding: 25px 15px;
+    }
+    .title-thanks {
+        font-size: 23px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -1508,6 +1848,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .sidebar-catalog,
     .footer__content {
         display: block !important;
     }

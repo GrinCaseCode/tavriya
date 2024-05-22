@@ -20,6 +20,28 @@ $(document).ready(function () {
 		$menu.removeClass("fixed").addClass("default");
 	}
 
+
+	$(".item-sidebar__head").click(function(e) {
+		e.preventDefault();
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-sidebar__content").slideToggle(200);
+		$(this).parent().siblings(".item-sidebar").removeClass("active");
+		$(this).parent().siblings(".item-sidebar").find(".item-sidebar__content").slideUp(200);
+	  });
+
+	  $(".item-filter__head").click(function(e) {
+		e.preventDefault();
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-filter__content").slideToggle(200);
+		$(this).parent().siblings(".item-filter").removeClass("active");
+		$(this).parent().siblings(".item-filter").find(".item-filter__content").slideUp(200);
+	  });
+
+	  $(".btn-main_filter").click(function(e) {
+		e.preventDefault();
+		$(".sidebar-catalog").slideToggle(200);
+	});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -227,6 +249,27 @@ $(document).ready(function () {
 				}
 			}
 		]
+	});
+
+	$('.slider-card').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		touchThreshold: 1000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fal fa-long-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fal fa-long-arrow-right"></i><div/>',
+	});
+
+
+	$('.tabs-page li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().parent().find(".tab-pane-page").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");

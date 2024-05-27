@@ -2196,3 +2196,119 @@ form {
 	margin-top: 62px;
 	height: 68px;
 }
+
+.modal-block {
+	display: none;
+}
+.fancybox-content {
+	padding: 0;
+	background: transparent;
+}
+.modal-block .fancybox-button svg path {
+	fill: #fff;
+}
+.modal-block .fancybox-close-small {
+	opacity: 1;
+}
+.modal-block .form-main.form-main_page .title-middle {
+    margin-bottom: 12px;
+}
+.modal-block .form-main.form-main_page {
+    padding-top: 52px;
+    padding-bottom: 45px;
+	margin: 0 auto;
+	background-image: url(../img/bg_form2.svg);
+}
+.modal-block .descr-form {
+	font-size: 14px;
+}
+.modal-block .fancybox-close-small {
+    color: currentColor;
+    padding: 8px;
+    right: 51px;
+    top: 9px;
+}
+.text-columns {
+	columns: 2;
+	column-gap: 30px;
+}
+.title-page {
+	font-size: 28px;
+	line-height: 140%;
+}
+.page-services .title-page {
+	margin-bottom: 18px;
+}
+.tab-container {
+	padding-top: 36px;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:first-child {
+	display: block;
+}
+.tabs {
+	gap: 12px;
+	display: flex;
+	align-items: center;
+}
+.tabs a {
+	height: 54px;
+	padding: 0 28px;
+	font-size: 20px;
+	color: #fefefe;
+	border-radius: 50px;
+	background: #344187;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tabs .active a,
+.tabs a:hover {
+	background: #5fbc74;
+}
+.page-services .title-section {
+	margin-bottom: 30px;
+}
+.page-services {
+	padding-top: 18px;
+}
+.page-services + .consultation {
+	padding-bottom: 100px;
+}
+.slider-services__item {
+	height: 320px;
+	border-radius: 24px;
+	width: 100%;
+	display: block;
+}
+.slider-services__item img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 24px;
+}
+.slider-services .slick-track {
+	display: flex !important;
+}
+.slider-services .slick-slide {
+	padding: 0 15px;
+	height: inherit !important;
+}
+.slider-services .slick-list {
+	margin: 0 -15px;
+}
+.slider-services {
+	margin-top: 63px;
+}
+.slider-services .slick-prev {
+	left: -64px;
+}
+.slider-services .slick-next {
+	right: -64px;
+}
+.slider-services:not(.slick-initialized) > li:not(:first-child) {
+	display: none;
+}

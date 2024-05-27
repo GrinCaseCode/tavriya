@@ -262,6 +262,35 @@ $(document).ready(function () {
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fal fa-long-arrow-right"></i><div/>',
 	});
 
+	$('.slider-services').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		touchThreshold: 1000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fal fa-long-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fal fa-long-arrow-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					dots: true,
+					arrows: false
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					dots: true,
+					arrows: false
+				}
+			}
+		]
+	});
+
 
 	$('.tabs-page li a').click(function(event) {
 		event.preventDefault();
@@ -270,6 +299,16 @@ $(document).ready(function () {
 		$(this).parent().parent().parent().find(".tab-pane-page").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
+	});
+
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().parent().find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+		$(this).parent().parent().parent().find('.slider-services').slick('setPosition');
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");

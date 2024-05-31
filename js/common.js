@@ -155,7 +155,13 @@ $(document).ready(function () {
 		]
 	});
 
-	$('.item-portfolio__slider').on('mousedown, touchstart', function () {
+	$('.item-portfolio__slider').on('touchstart', function () {
+		wrapperSlider.slick.setOption({
+			swipe: false
+		})
+	})
+
+	$('.item-portfolio__slider').on('mousedown', function () {
 		wrapperSlider.slick.setOption({
 			swipe: false
 		})

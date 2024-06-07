@@ -526,6 +526,30 @@
         font-size: 36px;
         margin-bottom: 18px;
     }
+
+    .lead_page .title-section {
+        margin-bottom: 40px;
+    }
+    .lead_page .lead__text + .title-section {
+        font-size: 30px;
+    }
+    .lead_page .lead__text {
+        margin-bottom: 32px;
+    }
+    .page-sertificats .title-section {
+        margin-bottom: 25px;
+    }
+    .item-sertificat__image {
+        height: 250px;
+        margin-bottom: 14px;
+    }
+    .item-sertificat__title {
+        margin-bottom: 14px;
+    }
+    .page-sertificats {
+        padding-top: 25px;
+        padding-bottom: 80px;
+    }
 }
 @media only screen and (max-width : 1470px) {
     body {
@@ -778,6 +802,22 @@
     .slider-services {
         margin-top: 45px;
     }
+
+    .lead_page .lead__text + .title-section {
+        font-size: 28px;
+    }
+    .lead.lead_page {
+        padding-top: 27px;
+    }
+    .lead_page + .about {
+        padding-bottom: 80px;
+    }
+    .lead_page .title-section {
+        margin-bottom: 30px;
+    }
+    .item-sertificat__image {
+        height: 229px;
+    }
 }
 @media only screen and (max-width : 1370px) {
     .form-search {
@@ -939,6 +979,13 @@
     }
     .page-services + .consultation {
         padding-bottom: 80px;
+    }
+
+    .lead_page .lead__text + .title-section {
+        font-size: 26px;
+    }
+    .item-sertificat__image {
+        height: 207px;
     }
 }
 /* Large Devices, Wide Screens */
@@ -1201,6 +1248,27 @@
     }
     .slider-services__item {
         height: 205px;
+    }
+
+    .lead_page .lead__text + .title-section {
+        font-size: 20px;
+    }
+    .lead_page + .about {
+        padding-bottom: 60px;
+    }
+    .item-sertificat__image {
+        height: 162px;
+    }
+    .item-sertificat {
+        padding: 12px 9px;
+        padding-bottom: 15px;
+    }
+    .item-sertificat__title {
+        margin-bottom: 10px;
+    }
+    .page-sertificats {
+        padding-top: 20px;
+        padding-bottom: 60px;
     }
 }
 
@@ -1643,6 +1711,19 @@
         border-color: #ce2e24;
         background: #ce2e24;
     }
+
+    .lead_page .lead__text {
+        margin-bottom: 20px;
+    }
+    .lead_page .lead__text + .title-section {
+        margin-bottom: 20px;
+    }
+    .lead_page + .about .head-section {
+        padding-top: 45px;
+    }
+    .lead_page .title-section {
+        margin-bottom: 23px;
+    }
 }
  
 /* Small Devices, Tablets */
@@ -1750,6 +1831,15 @@
     }
     .slider-services__item {
         height: 170px;
+    }
+    .item-sertificat__image {
+        height: 173px;
+    }
+    .item-sertificat {
+        max-width: 223px;
+    }
+    .page-sertificats {
+        padding-bottom: 50px;
     }
 }
  
@@ -1949,6 +2039,23 @@
     }
     .slider-services__item {
         height: 218px;
+    }
+
+    .item-sertificat {
+        font-size: 12px;
+        line-height: 140%;
+        max-width: 165px;
+    }
+    .item-sertificat__image {
+        height: 130px;
+    }
+    .item-sertificat {
+        padding: 9px 7px;
+        padding-bottom: 13px;
+    }
+    .item-sertificat__icon {
+        width: 21px;
+        height: 21px;
     }
 }
 

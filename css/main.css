@@ -2343,7 +2343,7 @@ form {
 }
 .item-sertificat {
 	padding: 15px 13px;
-	padding-bottom: 20px;
+	padding-bottom: 20px; 
 	min-height: 100%;
 	border-radius: 16px;
 	display: flex;
